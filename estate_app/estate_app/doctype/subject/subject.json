@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:subject_code",
+ "creation": "2024-06-07 13:16:24.256272",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_quby",
+  "subject_code",
+  "subject_name",
+  "total_marks"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_quby",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "subject_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "subject_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_marks",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": " Total Marks",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-11 13:19:02.596309",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Subject",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

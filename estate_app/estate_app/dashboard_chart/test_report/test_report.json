@@ -1,0 +1,35 @@
+{
+ "chart_name": "test report",
+ "chart_type": "Report",
+ "creation": "2024-06-19 15:14:17.316694",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2024-06-19 15:14:26.708800",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "test report",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Student Report",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Bar",
+ "use_report_chart": 1,
+ "x_field": "",
+ "y_axis": [
+  {
+   "y_field": "total_max_marks"
+  },
+  {
+   "y_field": "overall_percentage"
+  }
+ ]
+}

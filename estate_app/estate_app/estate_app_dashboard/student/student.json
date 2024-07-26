@@ -1,0 +1,50 @@
+{
+ "cards": [
+  {
+   "card": "Student Number"
+  },
+  {
+   "card": "Report"
+  },
+  {
+   "card": "Subject Count"
+  },
+  {
+   "card": "Student ID Card Count"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Gender",
+   "width": "Half"
+  },
+  {
+   "chart": "Status",
+   "width": "Half"
+  },
+  {
+   "chart": "Total Marks",
+   "width": "Half"
+  },
+  {
+   "chart": "Date of Birth",
+   "width": "Half"
+  },
+  {
+   "chart": "Completed Operation",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-06-19 14:06:42.311756",
+ "dashboard_name": "Student",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2024-06-29 11:20:38.469895",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Student",
+ "owner": "Administrator"
+}

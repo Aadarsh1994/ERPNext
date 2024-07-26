@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:regno",
+ "creation": "2024-06-11 03:12:38.806034",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "regno",
+  "student_name",
+  "father_name",
+  "column_break_mrof",
+  "mother_name",
+  "addres",
+  "mobile_no",
+  "section_break_hdtt",
+  "mark",
+  "section_break_qosg",
+  "overall_marks",
+  "column_break_thij",
+  "total_marks"
+ ],
+ "fields": [
+  {
+   "fetch_from": "regno.mob_no",
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "regno",
+   "fieldtype": "Link",
+   "label": "reg.no",
+   "options": "Student",
+   "unique": 1
+  },
+  {
+   "fetch_from": "regno.stud_name",
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name",
+   "unique": 1
+  },
+  {
+   "fetch_from": "regno.fathers_name",
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "fetch_from": "regno.mothers_name",
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fetch_from": "regno.address",
+   "fieldname": "addres",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "mark",
+   "fieldtype": "Table",
+   "label": "Subject Details",
+   "options": "Marks"
+  },
+  {
+   "fieldname": "column_break_mrof",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qosg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "overall_marks",
+   "fieldtype": "Data",
+   "label": "Overall Marks"
+  },
+  {
+   "fieldname": "total_marks",
+   "fieldtype": "Data",
+   "label": "Total Marks"
+  },
+  {
+   "fieldname": "section_break_hdtt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_thij",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-11 14:22:33.665018",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Student personal details",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

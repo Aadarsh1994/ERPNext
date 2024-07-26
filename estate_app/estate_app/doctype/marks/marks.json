@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-06-07 12:35:38.194899",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subject_code",
+  "sub_name",
+  "marks_obtained",
+  "total_marks",
+  "percentage"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Subject Code",
+   "options": "Subject"
+  },
+  {
+   "fetch_from": "subject_code.subject_name",
+   "fieldname": "sub_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject Name"
+  },
+  {
+   "fieldname": "marks_obtained",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Marks Obtained"
+  },
+  {
+   "fetch_from": "subject_code.total_marks",
+   "fieldname": "total_marks",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total  Marks"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Percentage"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-11 15:14:39.894210",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Marks",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

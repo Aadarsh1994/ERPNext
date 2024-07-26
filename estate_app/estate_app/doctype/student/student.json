@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:regno",
+ "creation": "2024-06-07 12:13:12.272911",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rj5c",
+  "regno",
+  "stud_name",
+  "gender",
+  "dob",
+  "column_break_1naa",
+  "dept",
+  "course",
+  "email",
+  "mob_no",
+  "section_break_mprw",
+  "fathers_name",
+  "mothers_name",
+  "address",
+  "section_break_yxne",
+  "mark",
+  "status",
+  "admission_fees"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rj5c",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "regno",
+   "fieldtype": "Data",
+   "label": "Reg.No",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "stud_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-Mail"
+  },
+  {
+   "fieldname": "column_break_1naa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dept",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Data",
+   "label": "Course"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mob_no",
+   "fieldtype": "Data",
+   "label": "Mob.No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_mprw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fathers_name",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "fieldname": "mothers_name",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "section_break_yxne",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nCompleted",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mark",
+   "fieldtype": "Table",
+   "label": "Total Marks",
+   "options": "Marks"
+  },
+  {
+   "fieldname": "admission_fees",
+   "fieldtype": "Currency",
+   "label": "Admission fees",
+   "permlevel": 3
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-09 09:31:13.136149",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Student",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

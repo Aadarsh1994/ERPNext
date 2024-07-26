@@ -1,0 +1,33 @@
+{
+    "doctype": "DocType",
+    "name": "Django Property",
+    "module": "Estate App",
+    "custom": 1,
+    "is_virtual": 1,
+    "fields": [
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "label": "Title"
+        },
+        {
+            "fieldname": "content",
+            "fieldtype": "Text Editor",
+            "label": "Content"
+        },
+        {
+            "fieldname": "property",
+            "fieldtype": "Data",
+            "label": "Property"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}

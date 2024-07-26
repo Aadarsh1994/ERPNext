@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:",
+ "creation": "2024-06-11 13:41:23.234387",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_yldl",
+  "reg_no",
+  "name1",
+  "gender",
+  "email",
+  "column_break_eady",
+  "mobile_no",
+  "dept",
+  "course",
+  "dob",
+  "section_break_h2oa",
+  "mark",
+  "section_break_6ful",
+  "total_marks_obtained",
+  "column_break_1gyg",
+  "total_max_marks",
+  "section_break_7d8u",
+  "percentage_obtained"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_h2oa",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "reg_no.dept",
+   "fieldname": "dept",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fetch_from": "reg_no.mob_no",
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "mark",
+   "fieldtype": "Table",
+   "label": "Subject Details",
+   "options": "Marks"
+  },
+  {
+   "fieldname": "column_break_1gyg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_7d8u",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_6ful",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_yldl",
+   "fieldtype": "Section Break",
+   "label": "Student Basic Details"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Link",
+   "label": "Student Reg.No",
+   "options": "Student"
+  },
+  {
+   "fetch_from": "reg_no.stud_name",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Student Name"
+  },
+  {
+   "fetch_from": "reg_no.gender",
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "Gender"
+  },
+  {
+   "fetch_from": "reg_no.email",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-mail"
+  },
+  {
+   "fetch_from": "reg_no.course",
+   "fieldname": "course",
+   "fieldtype": "Data",
+   "label": "Course"
+  },
+  {
+   "fetch_from": "reg_no.dob",
+   "fieldname": "dob",
+   "fieldtype": "Data",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "total_marks_obtained",
+   "fieldtype": "Float",
+   "label": "Overall Marks"
+  },
+  {
+   "fieldname": "percentage_obtained",
+   "fieldtype": "Float",
+   "label": "percentage"
+  },
+  {
+   "fieldname": "column_break_eady",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_max_marks",
+   "fieldtype": "Float",
+   "label": "Total Marks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-12 10:45:47.694731",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Student Details",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

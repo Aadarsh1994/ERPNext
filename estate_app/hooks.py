@@ -4,6 +4,17 @@ app_publisher = "Adarsh"
 app_description = "Real estate listing"
 app_email = "test@gmail.com"
 app_license = "mit"
+######mention only module app
+# estate_app/hooks.py
+# doc_events = {
+#     "Student": {
+#         "on_update": "estate_app.api.Student_ID_new"
+#     }
+# }
+
+
+
+
 # required_apps = []
 
 # Includes in <head>
@@ -227,3 +238,24 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# my_custom_app/hooks.py
+
+doc_events = {
+    "Sales Invoice": {
+        "after_save": "apps/estate_app/estate_app/api.fetch_custom_extended_grand_total"
+    }
+}
+
+# my_custom_app/my_custom_app/hooks.py
+
+doc_events = {
+    "Subject": {
+        "after_insert": "apps/estate_app/www/api.file_upload.upload_file"
+    }
+}
+
+
+# estate_app/hooks.py
+
+app_include_js = "/assets/estate_app/js/subject_form.js"
+app_include_css = "/assets/estate_app/css/styles.css"

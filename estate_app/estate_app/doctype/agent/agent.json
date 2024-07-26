@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:agent_name",
+ "creation": "2024-05-20 15:43:29.764502",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_nvj7",
+  "agent_name",
+  "phone_number",
+  "email",
+  "property_sold",
+  "rank",
+  "address",
+  "column_break_im8y",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_nvj7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "agent_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Agent Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "column_break_im8y",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rank",
+   "fieldtype": "Data",
+   "label": "Rank"
+  },
+  {
+   "fieldname": "property_sold",
+   "fieldtype": "Data",
+   "label": "Property Sold"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-21 10:37:17.042840",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Agent",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

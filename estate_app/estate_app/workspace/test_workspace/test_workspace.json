@@ -1,0 +1,94 @@
+{
+ "charts": [
+  {
+   "chart_name": "Total Marks",
+   "label": "Test"
+  }
+ ],
+ "content": "[{\"id\":\"Z5-9Z-DsCO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Test Workspace</span>\",\"col\":12}},{\"id\":\"CCglMHBG_O\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Test\",\"col\":12}},{\"id\":\"O0wb4j5l4U\",\"type\":\"card\",\"data\":{\"card_name\":\"Main Doctype\",\"col\":4}}]",
+ "creation": "2024-06-11 15:21:54.875962",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "onboarding",
+ "idx": 0,
+ "indicator_color": "cyan",
+ "is_hidden": 0,
+ "label": "Test Workspace",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Main Doctype",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student",
+   "link_count": 0,
+   "link_to": "Student",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Details",
+   "link_count": 0,
+   "link_to": "Student Details",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student ID Card",
+   "link_count": 0,
+   "link_to": "Student ID Card",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student personal details",
+   "link_count": 0,
+   "link_to": "Student personal details",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "dashboard-view",
+   "link_count": 0,
+   "link_to": "dashboard-view",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-10 17:04:10.858524",
+ "modified_by": "Administrator",
+ "module": "Estate App",
+ "name": "Test Workspace",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "Test Workspace"
+}
